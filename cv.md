@@ -62,3 +62,10 @@ print('coefficient of determination:', r_sq)
 ```
 
 ---
+
+### Languages
+* Ukrainian - Native
+* Russian - Native
+* English - Intermediate
+
+---
