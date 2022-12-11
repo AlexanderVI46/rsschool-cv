@@ -30,3 +30,35 @@ Author and co-author of more than 100 scientific and educational works, includin
 *	Excellent written English (see articles from List of some publications)
 
 ---
+
+### Certificates
+* 2022.04	Campster basics of Python programming
+* 2022.04	Training course on the program "Modern information technologies in the educational process of higher education" for scientific and pedagogical and pedagogical workers of Oles Honchar Dnipro National University
+* 2022.04	Training course on the program "Professional activity in higher education: methods, art, skill" for scientific and pedagogical and pedagogical workers of Oles Honchar Dnipro National University
+* 2022.05	Internship at Department of Information Technology and Computer Engineering of National Technical University "Dnipro Polytechnic"
+
+---
+
+### Education
+* 2016	Academic title Associate Professor of Department of Radioelectronics
+* 2013	Academic degree Ph.D. (physics and mathematics)
+* 1998 – 2001	Post graduate course at Department of Radioelectronics, Faculty of Radiophysics, Oles Honchar Dnipropetrovsk National University
+* 1993-1998	Graduate course (diploma with honors) at Faculty of Radiophysics of Dnepropetrovsk State University
+
+---
+
+### Code example
+*Simple_linear_regression*
+```
+import numpy as np
+from sklearn.linear_model import LinearRegression
+x = np.array([2, 10, 15, 35, 42, 52]).reshape((-1, 1))
+y = np.array([3, 18, 16, 30, 27, 42])
+model = LinearRegression().fit(x, y)
+print('b0=', model.intercept_)
+print('b1=', model.coef_[0])
+r_sq = model.score(x, y)
+print('coefficient of determination:', r_sq)
+```
+
+---
