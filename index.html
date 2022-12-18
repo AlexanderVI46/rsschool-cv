@@ -1,1 +1,191 @@
-<h1>Ivanchenko</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
+  <title>cv</title>
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main-container">
+      <section class="section section-profile" id="profile">
+        
+        <div class="section-profile-title">
+          <h1 class="section-title main-title">Alexander Ivanchenko</h1>
+          <h3 class="section-subtitle">Junior Front-End Developer</h3>
+          <img src="./assets/img/photo.jpg" alt="Image didn't load" class="section-profile-photo">
+        </div>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="section-list">
+          <li class="section-item contacts-item">
+            Dnipro, Ukraine
+          </li>
+          <li class="section-item contacts-item">
+            E-mail: <a href="IvanchenkoAV@ukr.net" title="E-mail">IvanchenkoAV@ukr.net</a>
+          </li>
+          <li class="section-item contacts-item">
+            Discord: <a href="https://discord.gg/zUr7wWYPXE" title="Discord">Alexander Ivanchenko#6953</a>
+          </li>
+          <li class="section-item contacts-item">
+            Site: <a href="(https://tangerine-cajeta-eb961d.netlify.app/" title="Site">https://tangerine-cajeta-eb961d.netlify.app/</a>
+          </li>
+          <li class="section-item contacts-item">
+            Github: <a href="https://github.com/AlexanderVI46" title="Github">AlexanderVI46</a>
+          </li>
+          <li class="section-item contacts-item">
+            LinkedIn: <a href="https://www.linkedin.com/in/alexander-ivanchenko-691502163" title="LinkedIn">alexander-ivanchenko-691502163</a>
+          </li>
+          <li class="section-item contacts-item">
+            HackerRank: <a href="https://www.hackerrank.com/IvanchenkoAV" title="HackerRank">IvanchenkoAV</a>
+          </li>
+          <li class="section-item contacts-item">
+            CodeWars: <a href="https://www.codewars.com/users/Alexander_V_I" title="CodeWars">Alexander_V_I</a>
+          </li>
+          <li class="section-item contacts-item">
+            ORCID: <a href="https://orcid.org/0000-0003-4380-268X" title="ORCID">IvanchenkoAV</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+        <p>
+          Personal and business qualities: desire to work and develop, result-oriented, punctuality, responsibility,
+          attentiveness, decency, purposefulness. Hobbies: philosophy, walking, automotive technology.
+        </p>
+        <p>
+          Author and co-author of more than 100 scientific and educational works, including textbook, study guide, four
+          monographs, patent for an invention and five utility models, a specialist in programming, mathematics, in particular
+          numerical methods, statistics, physics, electronics, and also in the field of modeling physical processes.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            Python (177 completed tasks on CodeWars and HackerRank), Assembler, HTML, CSS, SQL, Git, Figma, Turbo Pascal, Delphi,
+            Visual Basic, Fortran, Access, Matlab, Mathcad, Excel (see Co-author of educational and methodological works)
+          </li>
+          <li class="section-item">
+            20 years of experience in teaching computer disciplines
+          </li>
+          <li class="section-item">
+            Simulation of physical processes (25 years) with implementation in different programming languages and using math
+            software (see articles from List of some publications)
+          </li>
+          <li class="section-item">
+            15 years of experience of technical support of computers, the Internet and local computer network (including the
+            hardware and software)
+          </li>
+          <li class="section-item">
+            Excellent written English (see articles from List of some publications)
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <pre class="pre"><code>
+        import numpy as np
+        from sklearn.linear_model import LinearRegression
+        x = np.array([2, 10, 15, 35, 42, 52]).reshape((-1, 1))
+        y = np.array([3, 18, 16, 30, 27, 42])
+        model = LinearRegression().fit(x, y)
+        print('b0=', model.intercept_)
+        print('b1=', model.coef_[0])
+        r_sq = model.score(x, y)
+        print('coefficient of determination:', r_sq)</code></pre>
+      </section>
+      <section class="section" id="certificates">
+        <h2 class="section-title">Certificates</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            2022.04<span> - Campster basics of Python programming</span>
+          </li>
+          <li class="section-item">
+            2022.04<span> - Training course on the program "Modern information technologies in the educational process of higher education" for
+            scientific and pedagogical and pedagogical workers of Oles Honchar Dnipro National University</span>
+          </li>
+          <li class="section-item">
+            2022.04<span> - Training course on the program "Professional activity in higher education: methods, art, skill" for scientific and
+            pedagogical and pedagogical workers of Oles Honchar Dnipro National University</span>
+          </li>
+          <li class="section-item">
+            2022.05<span> - Internship at Department of Information Technology and Computer Engineering of National Technical University "Dnipro
+            Polytechnic"</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            <a href="https://github.com/AlexanderVI46">GitHub</a>
+          </li>
+          <li class="section-item">
+            <a href="https://www.hackerrank.com/IvanchenkoAV">HackerRank</a>
+          </li>
+          <li class="section-item">
+            <a href="https://www.codewars.com/users/Alexander_V_I">Codewars</a>
+          </li>
+          <li class="section-item">
+            <a href="https://orcid.org/0000-0003-4380-268X">ORCID</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="section-list">
+          <li class="section-item">
+            2016<span> Academic title Associate Professor of Department of Radioelectronics</span>
+          </li>
+          <li class="section-item">
+            2013<span> Academic degree Ph.D. (physics and mathematics)</span>
+          </li>
+          <li class="section-item">
+            1998 – 2001<span> Post graduate course at Department of Radioelectronics, Faculty of Radiophysics, Oles Honchar Dnipropetrovsk National
+            University</span>
+          </li>
+          <li class="section-item">
+            1993-1998<span> - Graduate course (diploma with honors) at Faculty of Radiophysics of Dnepropetrovsk State University</span>
+          </li>
+          <li class="section-item">
+            2022.05<span> - Internship at Department of Information Technology and Computer Engineering of National Technical
+              University "Dnipro
+              Polytechnic"</span>
+          </li>
+        </ul>
+      </section>
+      <section class="section section-languages" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <p>Ukrainian – Native</p>
+        <p>Russian – Native</p>
+        <p>English – Intermediate</p>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container footer-container">
+      <div>© 2022 <a href="https://github.com/AlexanderVI46" class="nav-link">Alexander Ivanchenko</a></div>
+      <a href="https://rs.school/js/" class="rss"><img src="./assets/img/rs_school_js.svg" alt="Image didn't load"></a>
+    </div>
+  </footer>
+</body>
+</html>
